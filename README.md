@@ -6,7 +6,7 @@ Digital cash stuffing tracker
 
 ## How It's Made:
 
-**Tech used:** React, Vite, JavaScript
+**Tech used:** React, Vite, LocalStorage
 
 ## Optimizations
 
@@ -14,4 +14,4 @@ TBD
 
 ## Lessons Learned:
 
-TBD
+- How to add local storage to a React app with the useEffect hook

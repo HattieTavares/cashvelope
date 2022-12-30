@@ -4,6 +4,7 @@ import { Balance } from './components/Balance';
 import { Summary } from './components/Summary';
 import { TransactionList } from './components/TransactionList';
 import { AddTransaction } from './components/AddTransaction';
+import { CategoryList } from './components/CategoryList';
 
 import { GlobalProvider } from './context/GlobalState';
 
@@ -15,8 +16,9 @@ function App() {
     <GlobalProvider>
       <Header />
       <div className='container'>
-        <Balance />
-        <Summary />
+        <CategoryList />
+      </div>
+      <div className='container'>
         <TransactionList />
         <AddTransaction />
       </div>

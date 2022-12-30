@@ -2,7 +2,7 @@
 
 Digital cash stuffing tracker
 
-**Link to project:** coming soon
+**Link to project:** https://cashvelope.netlify.app/
 
 ## How It's Made:
 
@@ -10,7 +10,9 @@ Digital cash stuffing tracker
 
 ## Optimizations
 
-TBD
+- [x] add local storage for demo
+- [ ] add backend
+- [ ] add auth
 
 ## Lessons Learned:
 
